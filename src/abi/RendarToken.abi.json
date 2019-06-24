@@ -1126,6 +1126,25 @@
     "constant": true,
     "inputs": [
       {
+        "name": "_artistsAccount",
+        "type": "address"
+      }
+    ],
+    "name": "artistsEditions",
+    "outputs": [
+      {
+        "name": "_editionIds",
+        "type": "uint256[]"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
         "name": "_editionId",
         "type": "uint256"
       }
