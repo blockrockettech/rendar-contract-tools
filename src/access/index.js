@@ -39,8 +39,8 @@ const getRendarToken = (network) => {
             abi: require('../abi/RendarToken.abi')
         },
         ropsten: {
-            address: '0x494a781efC5059B6eE4a5a135Ae83B1Aa4b6f963',
-            deploymentBlock: 5853344,
+            address: '0x81c596fde30e406294af8b7107a577c81fa703b7',
+            deploymentBlock: 6006107,
             abi: require('../abi/RendarToken.abi')
         },
         rinkeby: {
