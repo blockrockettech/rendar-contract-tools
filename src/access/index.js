@@ -34,13 +34,13 @@ const getNetwork = (network) => {
 const getRendarToken = (network) => {
     return networkSplitter(network, {
         mainnet: {
-            address: '',
-            deploymentBlock: 0,
+            address: '0x21fbda27636e29feb90df0cb96e9fd8aaaf15eea',
+            deploymentBlock: 8251225,
             abi: require('../abi/RendarToken.abi')
         },
         ropsten: {
-            address: '0x81c596fde30e406294af8b7107a577c81fa703b7',
-            deploymentBlock: 6006107,
+            address: '0x4E6Ce9418C29B8B56eb8Ef03d741DfE216a2CbF3',
+            deploymentBlock: 6090820,
             abi: require('../abi/RendarToken.abi')
         },
         rinkeby: {

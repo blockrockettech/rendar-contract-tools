@@ -790,6 +790,41 @@
     "constant": false,
     "inputs": [
       {
+        "name": "_editionSize",
+        "type": "uint256"
+      },
+      {
+        "name": "_priceInWei",
+        "type": "uint256"
+      },
+      {
+        "name": "_artistCommission",
+        "type": "uint256"
+      },
+      {
+        "name": "_artistAccount",
+        "type": "address"
+      },
+      {
+        "name": "_tokenURI",
+        "type": "string"
+      }
+    ],
+    "name": "createEditionInactive",
+    "outputs": [
+      {
+        "name": "_created",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
         "name": "_editionId",
         "type": "uint256"
       }
